@@ -4,8 +4,8 @@ variable "default_compartment" {
 }
 
 variable "vcn1_cidr" {
- type = string
- default = "10.40.0.0/16"
+ type = list
+ default = ["10.40.0.0/16"]
 }
 
 variable "vcn1_display_name" {
