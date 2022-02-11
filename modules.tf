@@ -14,5 +14,5 @@ module "vcn" {
 module "igw" {
  source = "./igw"
  
- vcn1_id = module.vcn.vcn1_id
+ vcn1 = module.vcn.vcn1_id
 }
