@@ -7,5 +7,5 @@ resource "oci_core_vcn" "vcn1" {
     display_name = var.vcn1_display_name
     dns_label = var.vcn1_dns_label
     freeform_tags = {"environment"= "prod"}
-    is_ipv6enabled = yes
+    is_ipv6enabled = true
 }
