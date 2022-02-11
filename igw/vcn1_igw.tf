@@ -1,4 +1,4 @@
-resource "oci_core_internet_gateway" "test_internet_gateway" {
+resource "oci_core_internet_gateway" "vcn1_igw" {
     #Required
     compartment_id = var.compartment_id
     vcn_id = vcn1_id
