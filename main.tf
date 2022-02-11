@@ -10,5 +10,6 @@ terraform {
     region = "ca-montreal-1"
     endpoint = "https://axplcpt6nqjo.compat.objectstorage.ca-montreal-1.oraclecloud.com"
     shared_credentials_file     = "~/.terraform/credentials"
+    skip_region_validation      = true
   }
 }
