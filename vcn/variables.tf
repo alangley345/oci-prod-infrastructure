@@ -1,6 +1,6 @@
 variable "default_compartment" {
  type = string
- default = []
+ default = ""
 }
 variable "vcn1_cidr" {
  type = list
