@@ -7,6 +7,4 @@ resource "oci_objectstorage_bucket" "myterraformcode" {
     #Optional
     access_type = NoPublicAccess
     freeform_tags = {"environment"= "prod"}
-    storage_tier = Standard
-    versioning = Enabled
 }
