@@ -1,6 +1,6 @@
 resource "oci_core_internet_gateway" "vcn1_igw" {
     #Required
-    compartment_id = var.compartment_id
+    compartment_id = compartment_id
     vcn_id = var.vcn1_id
 
     #Optional
