@@ -15,5 +15,5 @@ module "igw" {
  source = "./igw"
  
  vcn1_id = module.vcn.vcn1_id
- comparment_id = var.default_compartment
+ default_compartment = var.default_compartment
 }
