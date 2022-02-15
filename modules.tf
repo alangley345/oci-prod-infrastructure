@@ -18,7 +18,7 @@ module "igw" {
  default_compartment = var.default_compartment
 }
 
-#vSubnets within VCNs
+#Subnets within VCNs
 module "subnets" {
  source = "./subnets"
  

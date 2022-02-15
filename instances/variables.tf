@@ -12,5 +12,3 @@ variable "vcn1_subnet1" {
     type = string
     default = ""
 }
-
-
