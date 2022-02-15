@@ -1,9 +1,9 @@
-variable "vcn_id1" {
+variable "vcn1_id" {
     type = string
     default = ""
 }
 
-variable "comparment_id" {
+variable "default_compartment" {
     type = string
     default = ""
 }
