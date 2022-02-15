@@ -33,5 +33,4 @@ module "instances" {
  vcn1_id = module.vcn.vcn1_id
  default_compartment = var.default_compartment
  vcn1_subnet1 = module.subnets.vcn1_subnet1
- 
 }
