@@ -6,5 +6,5 @@ resource "oci_core_subnet" "vcn1_subnet1" {
 
     display_name = "Control Servers"
     freeform_tags = {"environment"= "prod"}
-    ipv6cidr_block = 2603:c023:4002:600::/64
+    ipv6cidr_block = "2603:c023:4002:600::/64"
 }
