@@ -4,6 +4,13 @@ provider "oci" {
 
 #define location of state file
 terraform {
+  required_providers {
+    oci = {
+      source = "oracle/oci"
+      version = "4.80.1"
+    }
+  }
+  
   backend "s3" {
     bucket   = "myterraformcode"
     key      = "prod/base_state.tf"
